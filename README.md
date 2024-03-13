@@ -1,4 +1,16 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+Tic Tac Toe is a mobile application built with React Native that allows users to play the classic game of Tic Tac Toe. Players can take turns marking the spaces in a 3x3 grid with their respective symbols (X or O). The game displays whose turn it is, checks for a winner after each move, and displays the winner once the game is won. Additionally, it provides error feedback using React Native Toast when a user attempts to select an already selected block.
+
+# Demo
+![ss1](assets/ss1.png)
+![ss2](assets/ss2.png)
+
+# Features
+- Play Tic Tac Toe on a mobile device.
+- Display whose turn it is (X or O).
+- Check for a winner after each move.
+- Display the winner once the game is won.
+- Provide error feedback using React Native Toast when selecting an already selected block.
 
 # Getting Started
 
@@ -55,11 +67,9 @@ Now that you have successfully run the app, let's modify it.
 
    For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
 
-## Congratulations! :tada:
+You've successfully run and modified your React Native App.
 
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
+### Contributing
 
 - If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
 - If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
@@ -67,13 +77,3 @@ You've successfully run and modified your React Native App. :partying_face:
 # Troubleshooting
 
 If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
